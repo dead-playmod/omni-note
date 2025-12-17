@@ -1,13 +1,13 @@
 <template>
   <div
-    class="flex-1 flex items-center justify-center relative after:absolute after:inset-0 after:animate-[pulse_5s_cubic-bezier(0.4,0,0.6,1)_infinite] after:from-primary-700/30 after:to-transparent after:bg-gradient-to-t"
+    class="after:from-primary-700/30 relative flex flex-1 items-center justify-center after:absolute after:inset-0 after:animate-[pulse_5s_cubic-bezier(0.4,0,0.6,1)_infinite] after:bg-gradient-to-t after:to-transparent"
   >
-    <div class="mb-[10%] z-10 flex flex-col items-center gap-2">
-      <h1 class="text-4xl text-center">
+    <div class="z-10 mb-[10%] flex flex-col items-center gap-2">
+      <h1 class="text-center text-4xl">
         Welcome to
 
         <span
-          class="from-primary-700 to-primary bg-gradient-to-t text-transparent font-bold bg-clip-text"
+          class="from-primary-700 to-primary bg-gradient-to-t bg-clip-text font-bold text-transparent"
         >
           omni-note
         </span>
